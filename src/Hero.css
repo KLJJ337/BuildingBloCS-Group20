@@ -1,0 +1,65 @@
+#hero {
+    padding-top: 4em;
+    width: 100%;
+    background: linear-gradient(to bottom, #ffcccc, white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero__cards {
+    padding: 2em 8em 4em 8em;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 2em;
+    align-self: flex-end;
+}
+
+#hero__cards > div {
+    flex: 1;
+    padding: 2em;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 0.5em;
+}
+
+#hero__scam-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-bottom: 1em;
+}
+
+.hero__scam-card {
+    padding: 0 1em;
+    border: 1px solid #ccc;
+}
+
+#hero__cards > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+#hero__help-cards {
+    display: flex;
+    margin: 0.5em 0 2em 0;
+    gap: 0.5em;
+    flex: 1;
+}
+
+.hero__help-card {
+    flex: 1;
+    padding: 1em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}

@@ -1,20 +1,36 @@
 .announcementDiv{
-    display: flex;
-    flex-direction: column;
-    padding: 2em 8em;
+    flex: 1 1;
+    
 }
 
-.announcementThreads {
+.announcementThreads, .storyThreads{
     border: 1px solid #ccc;
     background-color: white;
     border-radius: 0.5em;
     padding: 2em;
 }
 
-.announcement {
+.announcement, .story {
     padding: 0 1em;
     border: 1px solid #ccc;
-    height: 8em;
+    height: 10em;
     border-radius: 0.5em;
     margin: 0.5em;
+}
+
+.second {
+    padding: 2em 8em 4em 8em;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 2em;
+    align-self: flex-end;
+}
+
+.storyCorner{
+    flex: 1 1;
+    
+    
+    
+    
 }

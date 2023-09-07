@@ -11,7 +11,7 @@
 }
 
 .announcement, .story {
-    padding: 0 1em;
+    padding: 1em;
     border: 1px solid #ccc;
     height: 10em;
     border-radius: 0.5em;
@@ -33,4 +33,10 @@
     
     
     
+}
+
+.more{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1em;
 }

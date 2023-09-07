@@ -5,20 +5,23 @@ import Hero from "./Hero";
 import ThreadList from "./ThreadList";
 import Thread from "./Thread";
 import Announcement from "./Announcement";
+import ThreadDetail from "./ThreadDetail";
+
 
 function App() {
   return (
     <Router>
       <Header />
-
-      <Hero />
-      <Announcement />
+      {
+      //<Hero />
+      //<Announcement />
       
-
+        }
       <Routes>
-        {/* <Route path="/" exact component={ForumList} /> */}
-        <Route path="/forum/:forumId" exact component={ThreadList} />
-        <Route path="/thread/:threadId" exact component={Thread} />
+        <Route path="/"  element={<><Hero /><Announcement /></>}/> 
+        <Route path="/story" element={<ThreadList />} />
+        <Route path="/qna" element={<Thread />} />
+        <Route path="/ThreadDetail" element={<ThreadDetail />} />
       </Routes>
     </Router>
   );

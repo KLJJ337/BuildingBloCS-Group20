@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 
+
+
+
 function Header() {
     return (
         <header className="header">
@@ -10,8 +13,11 @@ function Header() {
               <li className="nav-item">
                 <Link to="/" className="nav-link">Home</Link>
               </li>
-              <li className="nav-item">
-                <Link to="/category" className="nav-link">Category</Link>
+              <li className="nav-item">              
+                <Link to="/story" className="nav-link">Story Corner</Link>
+              </li>
+              <li className="nav-item">              
+                <Link to="/qna" className="nav-link">Scam Q&A</Link>
               </li>
               <li className="nav-item">
                 <Link to="/profile" className="nav-link">User Profile</Link>

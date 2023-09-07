@@ -20,7 +20,10 @@ function Announcement() {
                         <h3>Title</h3>
                         <p>Content</p>
                     </div>
+                    <Link to="/Announcement" className="more">Find out more &gt;&gt;&gt;</Link>
+                    
                 </div>
+                
             </div>
             <div className="storyCorner">
                 <h2>Story Corner</h2>
@@ -37,6 +40,7 @@ function Announcement() {
                         <h3>Title</h3>
                         <p>Content</p>
                     </div>
+                    <Link to="/Story" className="more">Find out more &gt;&gt;&gt;</Link>
                 </div>
 
             </div>

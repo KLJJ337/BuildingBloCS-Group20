@@ -12,15 +12,8 @@ function App() {
       <Header />
 
       <Hero />
-
-      <div>
-        <h2>Announcement</h2>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
+      <Announcement />
+      
 
       <Routes>
         {/* <Route path="/" exact component={ForumList} /> */}
